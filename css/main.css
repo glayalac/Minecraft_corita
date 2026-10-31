@@ -1,0 +1,74 @@
+
+/* TYPOGRAPHIE */
+
+/* STYLES GENERAUX */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #30251D;
+    color: white;
+    font-family: sans-serif;
+}
+
+/* TITRE PRINCIPAL */
+
+header {
+    text-align: center;
+    padding: 30px;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+header p {
+    color: turquoise;
+    font-size: 20px;
+}
+
+/* DEUX COLONNES */
+
+main {
+    display: flex;
+    gap: 30px;
+    margin: 20px;
+}
+
+.colonne {
+    width: 50%;
+    padding: 15px;
+    background-color: #333333;
+}
+
+/* TITRES DES CATEGORIES */
+
+h2 {
+    text-align: center;
+    padding: 12px;
+    border: 2px solid white;
+    background-color: #777777;
+    margin-bottom: 20px;
+}
+
+/* REGLES */
+
+article {
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+h3 {
+    color: lime;
+    font-size: 20px;
+}
+
+article p {
+    color: turquoise;
+    font-size: 16px;
+    line-height: 1.6;
+}
