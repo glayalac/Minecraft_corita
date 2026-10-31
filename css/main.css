@@ -1,21 +1,19 @@
 
 /* TYPOGRAPHIE */
 
-/* Police principale */
 @font-face {
     font-family: "Pixelify";
     src: url("../src/fonts/PixelifySans-Regular.ttf");
     font-weight: normal;
 }
 
-/* Police en gras */
 @font-face {
     font-family: "Pixelify";
     src: url("../src/fonts/PixelifySans-Bold.ttf");
     font-weight: bold;
 }
 
-/* STYLES GENERAUX */
+/* STYLES */
 
 * {
     margin: 0;
@@ -40,7 +38,7 @@ header {
 }
 
 header h1 {
-    font-size: 55px;
+    font-size: 90px;
     color: white;
     text-shadow: 4px 4px 2px black;
     margin-bottom: 10px;
@@ -61,7 +59,7 @@ main {
     margin: auto;
 }
 
-/* LES DEUX CONCEPTS */
+/* LES CONCEPTS */
 
 .colonne {
     background-color: rgba(0, 0, 0, 0.65);
@@ -106,25 +104,4 @@ article p {
 
 strong {
     color: #FFFF55;
-}
-
-/* VERSION MOBILE */
-
-@media (max-width: 700px) {
-
-    body {
-        padding: 12px;
-    }
-
-    header h1 {
-        font-size: 38px;
-    }
-
-    main {
-        flex-direction: column;
-    }
-
-    .colonne {
-        width: 100%;
-    }
 }
